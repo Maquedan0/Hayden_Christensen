@@ -1,0 +1,26 @@
+.img{
+    border: 10px solid gray;
+    outline: 5px solid rgb(167, 167, 167);
+    box-shadow: 10px 10px 5px rgb(167, 167, 167);
+}
+
+.MASSA{
+    background-color: rgb(167, 167, 167, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(219, 219, 219);
+    transition: transform 0.3s ease;
+}
+
+.MASSA:hover{
+    transform: translateY(-10px);
+
+}
+
+.MASSB{
+    background-color: rgb(167, 167, 167, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(219, 219, 219);
+    transition: transform 0.3s ease;
+}
