@@ -5,6 +5,13 @@
     align-items: center;
 }
 
+.TITULO{
+    background-color: rgb(219, 219, 219, 0.2);
+    box-shadow: 10px 10px 5px rgb(219, 219, 219, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .MASSA{
     background-color: rgb(167, 167, 167, 0.2);
     padding: 10px;
@@ -29,7 +36,7 @@
 .COISA{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap; 
     width: 100%; 
@@ -41,6 +48,10 @@
 }
 
 @media (max-width: 768px) {
+    body{
+        margin: 40px;
+    }
+
     .COISA {
         font-size: 20px;
     }
